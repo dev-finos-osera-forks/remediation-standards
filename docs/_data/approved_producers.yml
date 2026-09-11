@@ -1,6 +1,17 @@
 schema-version: 0.1.0
-status: No approved producers registered
+status: DEV ONLY, the entries the dev Exchange uses; the real registry is empty until the standards group approves a producer
 applies_to_pack: OSERA-SP-0.1.0
 description: Approved producers must be ratified by the standards group or other agreed OSERA governance process before official signed artifacts can claim OSERA-SP-0.1.0 alignment.
 update_policy: Producer registry changes that do not alter standard text or check semantics may be released as standards-pack patch versions.
-producers: []
+producers:
+  - id: controlplane-dev
+    contact: francesco@control-plane.io
+    github_users:
+      - d1gital-f
+      - datosh
+    staging_account: controlplane-dev-deploy
+  - id: moderne
+    contact: support@moderne.io
+    github_users:
+      - jkschneider
+    staging_account: moderne-deploy
