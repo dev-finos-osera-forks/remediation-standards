@@ -9,7 +9,7 @@ producers:
     github_users:
       - d1gital-f
       - datosh
-    staging_account: controlplane-dev-deploy
+    staging_account: fbeltramini   # the dev Nexus user that uploads; user token, osera-producer and osera-user-token roles
   - id: moderne
     contact: support@moderne.io
     github_users:
