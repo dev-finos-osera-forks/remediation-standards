@@ -10,6 +10,10 @@ producers:
       - d1gital-f
       - datosh
     staging_account: fbeltramini   # the dev Nexus user that uploads; user token, osera-producer and osera-user-token roles
+    pgp_fingerprint: E16FA220A3C9B1753F16724E0839A327D17F282E
+    pgp_key_urls:
+      - https://keys.openpgp.org/vks/v1/by-fingerprint/E16FA220A3C9B1753F16724E0839A327D17F282E
+      - https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0xE16FA220A3C9B1753F16724E0839A327D17F282E
   - id: moderne
     contact: support@moderne.io
     github_users:
