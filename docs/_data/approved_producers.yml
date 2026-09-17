@@ -18,4 +18,9 @@ producers:
     contact: support@moderne.io
     github_users:
       - jkschneider
+      - pstreef
     staging_account: moderne-deploy
+    pgp_fingerprint: CD543E8266B60901EA981EF94280984B79227AD0
+    pgp_key_urls:
+      - https://keys.openpgp.org/vks/v1/by-fingerprint/CD543E8266B60901EA981EF94280984B79227AD0
+      - https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0xCD543E8266B60901EA981EF94280984B79227AD0
