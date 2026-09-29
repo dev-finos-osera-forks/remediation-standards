@@ -4,16 +4,15 @@ applies_to_pack: OSERA-SP-0.1.0
 description: Approved producers must be ratified by the standards group or other agreed OSERA governance process before official signed artifacts can claim OSERA-SP-0.1.0 alignment.
 update_policy: Producer registry changes that do not alter standard text or check semantics may be released as standards-pack patch versions.
 producers:
-  - id: controlplane-dev
-    contact: francesco@control-plane.io
+  - id: cp-osera-dev
+    contact: osera@control-plane.io
     github_users:
-      - d1gital-f
-      - datosh
-    staging_account: fbeltramini   # the dev Nexus user that uploads; user token, osera-producer and osera-user-token roles
-    pgp_fingerprint: E16FA220A3C9B1753F16724E0839A327D17F282E
+      - cp-osera-dev-bot   # the machine user the dev producer workflow acts as (osera-platform #180)
+    staging_account: cp-osera-dev-deploy   # the dev Nexus service user that uploads; user token, osera-producer and osera-user-token roles
+    pgp_fingerprint: A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198
     pgp_key_urls:
-      - https://keys.openpgp.org/vks/v1/by-fingerprint/E16FA220A3C9B1753F16724E0839A327D17F282E
-      - https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0xE16FA220A3C9B1753F16724E0839A327D17F282E
+      - https://keys.openpgp.org/vks/v1/by-fingerprint/A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198
+      - https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0xA0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198
   - id: moderne
     contact: support@moderne.io
     github_users:
